@@ -1,0 +1,259 @@
+@CHARSET "UTF-8";
+
+body {
+	background: #5175BC;
+	width:1024px;
+	margin: 0 auto;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+a {
+	font-style: italic;
+}
+
+hr {
+	color: #7D529F;
+	border-width: 2px;
+}
+
+input {
+	cursor: pointer;
+}
+
+.main_container {
+	background-color: #DCE4F2;
+	min-height: 400px;
+	padding: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #395489;
+}
+
+#banner{
+	background-color: #235668;
+	padding: 10px 0px;
+}
+
+#banner_title {
+	padding: 0px 20px;
+}
+
+#banner_hr {
+	color: #FFF;
+	font-size: 20px;
+	background-color: #34819D;
+	padding: 5px 25px;
+	margin-bottom: 5px;
+	border-color: #395489;
+	border-width: 2px;
+	border-style: solid;
+}
+
+#footer {
+	background-color: #DCE4F2;
+	color: #5DAEE1;
+}
+
+#login {
+	background-color: #DCE4F2;
+	font-size: 20px;
+}
+
+.box {
+	background-color: #235668;
+	margin: 20px auto;	
+	border-color: #395489;
+	border-width: 2px;
+	border-style: solid;
+}
+
+#login_bar {
+	color: #C3DD9B;
+	font-size: 30px;
+	margin: 0px;
+	padding: 10px;
+	float: left;
+}
+
+#reg_button{
+	float: right;
+	margin: 10px 65px;
+	background-image: url("../images/reg_btn.png");
+	border-style: solid;
+	border-width: 2px;
+	border-color: #395489;
+	color: #000;
+	text-decoration: none;
+	font-style: normal;
+	padding: 7px;
+	font-size: 20px;
+}
+
+.problem_bar{
+	background-image: url("../images/field_btn.png");
+	border-style: solid;
+	border-width: 2px;
+	border-color: #49A5C4;
+	color: white;
+	margin-right:100px;
+	padding: 4px;
+}
+
+.field {
+	width: 240px;
+	height: 25px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #395489;
+}
+
+.session_field {
+	height: 25px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #395489;
+}
+
+.confirm_btn{
+	padding: 5px 20px;
+	font-size: 20px;
+	background-image: url("../images/login_btn.png");
+	border-style: solid;
+	border-width: 2px;
+	border-color: #98C257;
+}
+
+.submit_btn{
+	padding: 5px 20px;
+	font-size: 20px;
+	background-image: url("../images/admin_type.png");
+	border-style: solid;
+	border-width: 2px;
+	border-color: #4EA7C5;
+}
+
+.field_button{
+	background-image: url("../images/field_btn.png");
+	border-style: solid;
+	border-width: 2px;
+	border-color: #49A5C4;
+	text-align: center;
+}
+
+.session_button{
+	background-color: #9BC45C;
+	padding: 0px 10px;
+	text-align: center;
+}
+
+.left_container {
+	float: left;
+	width: 280px;
+	padding: 5px 20px 20px;
+	background-size: 100%;
+}
+
+.right_container {
+	background-color: #FFF;
+	min-height: 853px;
+	float: right;
+	width: 660px;
+	padding: 0px 20px;
+}
+
+.user_type{
+	border-width: 2px;
+	border-style: solid;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+.user_info{
+	border-width: 4px;
+	border-style: solid;
+	border-color: #FFF;
+	margin: 10px 0px;
+	color: #FFF;
+	padding: 5px 10px;
+}
+
+.update_btn{
+	border-style: solid;
+	border-color: #9BC45C;
+	border-width: 2px;
+	color: #000;
+	text-decoration: none;
+	font-style: normal;
+	text-align: center;
+	padding: 5px 15px;
+}
+
+.update_student{
+	padding: 5px 15px;
+	font-style: normal;
+	background-color:#FFCC99;
+	border-style: solid;
+	border-width: 2px;
+	border-color: orange;
+}
+
+.update_ta{
+	padding: 5px 15px;
+	font-style: normal;
+	background-color:#9BC45C;
+	border-style: solid;
+	border-width: 2px;
+	border-color: green;
+}
+
+
+#inner_box{
+	background-image: url('../images/ta_type.png');
+	background-size: 100%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #9BC45C;
+	padding: 10px;
+	margin: 5px 0px;
+}
+
+#rate_box{
+	background-color: #F69E49;
+	background-size: 100%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #9BC45C;
+	padding: 10px;
+	margin: 5px 0px;
+}
+
+#searchtbl input{
+	width: 500px;
+}
+
+.searchfields {
+	text-align: center;
+	width: 150px;
+	background-color: purple;
+	color: white;
+}
+
+.searchUser {
+    text-align: center;
+    width: 150px;
+    background-color: #4EA7C5;
+    color: white;
+}
+
+.searchUser_btn{
+    border-style: solid;
+    border-color: #9BC45C;
+    border-width: 2px;
+    color: #FFF;
+    text-decoration: none;
+    font-style: normal;
+    text-align: center;
+    padding: 5px 15px;
+    background-color: #4EA7C5;
+}
